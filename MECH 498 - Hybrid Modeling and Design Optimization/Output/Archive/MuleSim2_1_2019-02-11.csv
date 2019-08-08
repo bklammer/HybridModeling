@@ -1,0 +1,46 @@
+Parameter,Symbol,Value,Units
+MATLAB Function Name,function_name,MuleSim2,-
+Date and Time Simulated,time_stamp,11-Feb-2019 20:16:34,-
+CEA File Name,CEA_f,MuleSim2CEA.mat,-
+Input File Name,input_f,MuleSim2INPUT.xlsx,-
+Elapsed Simulation Time,time_sim,0.297251417242429,s
+Operating System and Version,computer_name,PCWIN64,-
+Oxidizer 1 Mass Fraction,N2O,1,-
+Fuel 1 Mass Fraction,C32H66_a_,1,-
+Tank Volume,V_tank,0.025,m^3
+Initial Mass of Oxidizer in Tank,m_ox_tank_init,4,kg
+Initial Oxidizer Tank Pressure,p_tank_init,4964000,Pa
+Injector orifice diameter,d_inj,0.003048,m
+Number of Injector Orifices,n_inj,12,-
+Injector discharge coefficient,Cd_inj,0.4,-
+Fuel Grain Length,L,0.4191,m
+Fuel Grain Initial Diameter,d_port_init,0.055,m
+Density of Fuel,rho_f,900,kg/m^3
+Regression Rate Constant,a,0.000155,m/s
+Regression Rate Exponent,n,0.5,-
+Nozzle Throat Diameter,d_th,0.0407162,m
+Nozzle Area Ratio,A_ratio_nozzle,5,-
+Atmospheric Pressure,p_atm,101325,Pa
+Atmospheric Temperature,T_atm,292,K
+Initial Combustion Chamber Pressure,p_init,101324,Pa
+Initial Combustion Chamber Temperature,T_init,292,K
+Initial Combustion Chamber Velocity,vel_init,0,m/s
+Time Step,del_time,0.001,s
+Max Burn Time,time_max,15,s
+Tank Temperature Change per Estimation,del_T_tank,0.01,K
+Mach Number Change per Estimation,del_Ma,0.0001,-
+Tank Volume Error,V_tank_eps,2.5e-05,m^3
+Tank internal energy error,u_tank_eps,10000,J/kg
+Nozzle Area Ratio Error,A_ratio_nozzle_eps,0.001,-
+Burn Time,time(end),0.13,s
+Peak Thrust,max(F_thrust),4847.27652498401,N
+Average Thrust,mean(F_thrust),3912.72624356704,N
+Total Impulse,I_tot,510.918597867449,N*s
+Specific Impulse,I_sp,216.93460329572,s
+Average O/F Ratio,mean(OF),6.06690475734681,-
+Average Oxidizer Mass Flow,mean(m_dot_ox_in),1.58099087114175,kg/s
+Average Fuel Mass Flow,mean(m_dot_f),0.260591819393551,kg/s
+Average Regression Rate,mean(r_dot),0.00396132621495061,m/s
+Final Port Diameter,d_port_f,0.0560300271300245,m
+Maximum Combustion Chamber Pressure,max(T_cc),3282.86894548305,K
+Maximum Combustion Chamber Temperature,max(p_cc),2420035.97667691,Pa

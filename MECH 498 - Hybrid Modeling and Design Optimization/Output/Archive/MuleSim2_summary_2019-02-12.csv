@@ -1,0 +1,49 @@
+Parameter,Symbol,Value,Units
+MATLAB Function Name,function_name,MuleSim2,-
+Date and Time Simulated,time_stamp,12-Feb-2019 00:59:22,-
+CEA File Name,CEA_f,Boundless,-
+Input File Name,input_f,MuleSim2INPUT,-
+Elapsed Simulation Time,time_sim,24.2915761897583,s
+Operating System and Version,computer_name,PCWIN64,-
+Oxidizer 1 Mass Fraction,N2O_L__298_15K,1,-
+Fuel 1 Mass Fraction,C32H66_a_,0.93,-
+Fuel 2 Mass Fraction,AL,0.05,-
+Fuel 3 Mass Fraction,C8H16_1_minusoctene,0.02,-
+Tank Volume,V_tank,0.02981,m^3
+Initial Mass of Oxidizer in Tank,m_ox_tank_init,16,kg
+Initial Oxidizer Tank Pressure,p_tank_init,4964000,Pa
+Injector orifice diameter,d_inj,0.003048,m
+Number of Injector Orifices,n_inj,12,-
+Injector discharge coefficient,Cd_inj,0.3,-
+Fuel Grain Length,L,0.4191,m
+Fuel Grain Initial Diameter,d_port_init,0.055,m
+Density of Fuel,rho_f,900,kg/m^3
+Regression Rate Constant,a,0.00016,m/s
+Regression Rate Exponent,n,0.5,-
+Nozzle Throat Diameter,d_th,0.0407162,m
+Nozzle Area Ratio,A_ratio_nozzle,5,-
+Atmospheric Pressure,p_atm,101325,Pa
+Atmospheric Temperature,T_atm,292,K
+Initial Combustion Chamber Pressure,p_init,101324,Pa
+Initial Combustion Chamber Temperature,T_init,292,K
+Initial Combustion Chamber Velocity,vel_init,0,m/s
+Time Step,del_time,0.001,s
+Max Burn Time,time_max,15,s
+Tank Temperature Change per Estimation,del_T_tank,0.01,K
+Mach Number Change per Estimation,del_Ma,0.0001,-
+Tank Volume Error,V_tank_eps,2.981e-05,m^3
+Tank internal energy error,u_tank_eps,10000,J/kg
+Nozzle Area Ratio Error,A_ratio_nozzle_eps,0.001,-
+Initial Guess for Mach Number at Nozzle Exit,Ma_init,3,-
+Burn Time,time(end),11.873,s
+Peak Thrust,max(F_thrust),3811.84137937341,N
+Average Thrust,mean(F_thrust),2710.20168713807,N
+Total Impulse,I_tot,32180.062138741,N*s
+Specific Impulse,I_sp,206.757270028926,s
+Average O/F Ratio,mean(OF),4.92559385475706,-
+Average Oxidizer Mass Flow,mean(m_dot_ox_in),1.11117934820102,kg/s
+Average Fuel Mass Flow,mean(m_dot_f),0.225438854291488,kg/s
+Average Regression Rate,mean(r_dot),0.00230856287781977,m/s
+Final Port Diameter,d_port_f,0.109820455305273,m
+Maximum Combustion Chamber Pressure,max(T_cc),3212.45823232512,K
+Maximum Combustion Chamber Temperature,max(p_cc),1847855.75056721,Pa

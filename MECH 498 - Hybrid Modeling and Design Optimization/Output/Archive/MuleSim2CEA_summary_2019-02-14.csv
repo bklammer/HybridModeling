@@ -1,0 +1,45 @@
+Parameter,Symbol,Value,Units
+MATLAB Function Name,function_name,MuleSim2,-
+Date and Time Simulated,time_stamp,14-Feb-2019 23:33:41,-
+CEA File Name,CEA_f,MuleSim2CEA,-
+Input File Name,input_f,MuleSim2INPUT,-
+Elapsed Simulation Time,time_sim,31.0753037151236,s
+Operating System and Version,computer_name,PCWIN64,-
+Oxidizer 1 Mass Fraction,N2O,1,-
+Fuel 1 Mass Fraction,C32H66_a_,1,-
+Tank Volume,V_tank,0.02981,m^3
+Initial Mass of Oxidizer in Tank,m_ox_tank_init,16,kg
+Initial Oxidizer Tank Pressure,p_tank_init,4964000,Pa
+Injector orifice diameter,d_inj,0.003048,m
+Number of Injector Orifices,n_inj,12,-
+Injector discharge coefficient,Cd_inj,0.66,-
+Fuel Grain Length,L,0.4191,m
+Fuel Grain Initial Diameter,d_port_init,0.055,m
+Density of Fuel,rho_f,930,kg/m^3
+Regression Rate Constant,a,0.000155,m/s
+Regression Rate Exponent,n,0.5,-
+Nozzle Throat Diameter,d_th,0.0407162,m
+Nozzle Area Ratio,A_ratio_nozzle,5,-
+Atmospheric Pressure,p_atm,101325,Pa
+Initial Combustion Chamber Pressure,p_cc_init,101326,Pa
+Initial Combustion Chamber Temperature,T_cc_init,292,K
+Initial Combustion Chamber Velocity,vel_cc_init,0,m/s
+Time Step,del_time,0.0008,s
+Max Burn Time,time_max,12,s
+Tank Volume Error,V_tank_eps,2.981e-05,m^3
+Tank Internal Energy Error,u_tank_eps,1000,J/kg
+Nozzle Area Ratio Error,A_ratio_nozzle_eps,0.001,-
+Burn Time,time(end),11.4152,s
+Peak Thrust,max(F_thrust),6794.77297535707,N
+Average Thrust,mean(F_thrust),3373.75706292999,N
+Total Impulse,I_tot,38514.9789995009,N*s
+Specific Impulse,I_sp,216.017750053736,s
+Average O/F Ratio,mean(OF),5.07067617614682,-
+Average Oxidizer Mass Flow,mean(m_dot_ox_in),1.35951339850521,kg/s
+Average Fuel Mass Flow,mean(m_dot_f),0.232562857852002,kg/s
+Total Oxidizer Mass Consumed,m_ox,15.520098909062,kg
+Total Fuel Mass Consumed,m_f,2.65476717898367,kg
+Average Regression Rate,mean(r_dot),0.00232822189931862,m/s
+Final Port Diameter,d_port_f,0.108156986009409,m
+Maximum Combustion Chamber Pressure,max(T_cc),3666.4743897949,K
+Maximum Combustion Chamber Temperature,max(p_cc),3213973.2702726,Pa

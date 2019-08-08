@@ -1,0 +1,78 @@
+
+ *******************************************************************************
+
+         NASA-GLENN CHEMICAL EQUILIBRIUM PROGRAM CEA2, MAY 21, 2004
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ reac
+        oxid N2O   wtfrac=1   t(k)=298.15
+        fuel C32H66(a)   wtfrac=1   t(k)=298.15
+  
+ prob   case=MuleSimData1   hp   p(bar)=30  o/f=9
+  
+ output siunits   massf   short
+  
+ end
+
+
+
+
+         THERMODYNAMIC EQUILIBRIUM COMBUSTION PROPERTIES AT ASSIGNED
+
+                                   PRESSURES
+
+ CASE = MuleSimData1   
+
+             REACTANT                    WT FRACTION      ENERGY      TEMP
+                                          (SEE NOTE)     KJ/KG-MOL      K  
+ OXIDANT     N2O                          1.0000000     81600.000    298.150
+ FUEL        C32H66(a)                    1.0000000   -967800.000    298.150
+
+ O/F=    9.00000  %FUEL= 10.000000  R,EQ.RATIO= 1.052108  PHI,EQ.RATIO= 1.052108
+
+ THERMODYNAMIC PROPERTIES
+
+ P, BAR            30.000
+ T, K             3310.87
+ RHO, KG/CU M    2.9231 0
+ H, KJ/KG         1453.95
+ U, KJ/KG          427.65
+ G, KJ/KG        -31020.7
+ S, KJ/(KG)(K)     9.8085
+
+ M, (1/n)          26.823
+ (dLV/dLP)t      -1.02170
+ (dLV/dLT)p        1.4253
+ Cp, KJ/(KG)(K)    4.2456
+ GAMMAs            1.1450
+ SON VEL,M/SEC     1084.0
+
+ MASS FRACTIONS
+
+ *CO              0.10230
+ *CO2             0.15162
+ *H               0.00037
+ HNO              0.00001
+ HO2              0.00005
+ *H2              0.00154
+ H2O              0.10374
+ *N               0.00001
+ *NO              0.02154
+ NO2              0.00003
+ *N2              0.56275
+ N2O              0.00001
+ *O               0.00515
+ *OH              0.02080
+ *O2              0.03008
+
+  * THERMODYNAMIC PROPERTIES FITTED TO 20000.K
+
+ NOTE. WEIGHT FRACTION OF FUEL IN TOTAL FUELS AND OF OXIDANT IN TOTAL OXIDANTS
+
+
+

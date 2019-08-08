@@ -1,0 +1,26 @@
+
+!     USER MANUAL FOR CEA CAN BE FOUND HERE:
+!          https://www.grc.nasa.gov/www/CEAWeb/RP-1311-P2.pdf
+!
+!  MULESIM DATA:
+!     (a)  Combustion or assigned-enthalpy-and-pressure problem (hp).
+!     (b)  Fuels are 'C3H6(L),propyle' as an approximation for polypropylene at
+!	   298.15 K. The oxidant is 'N2O(L),298.15K' at 298.15 K.
+!     (c)  Oxidant-to-fuel weight ratios from 0.5 to 50 are defined.  Weight
+!          fractions are fractions of fuel relative to total fuel and fractions
+!          of oxidant relative to total oxidant. Make sure to update the wtfrac
+!          value if you add more fuels.
+!     (d)  Assigned pressures range from 1-70 bar in steps of 5 (p(bar)=1,...).
+!     (e)  Mixture properties are to be printed in SI units (siunits).
+!     (f)  Reactant fractions are to be expressed in terms of mass (massf)
+!     (g)  The short output file format is used (short)
+!     (h)  I don't know why but this program is unbelievably finicky, be warned
+
+reac   
+       oxid N2O   wtfrac=1   t(k)=298.15
+       fuel C3H6(L),propyle   wtfrac=1   t(k)=225.46 
+prob   case=RATTWORKS   hp   p(bar)=1,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,55,60,65,70
+       o/f=0.5,0.75,1,1.25,1.5,2,2.25,2.5,2.75,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,12,13,14,15,17.5,20,25,37.5,50
+output siunits   massf   short
+
+end

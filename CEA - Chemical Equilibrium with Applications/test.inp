@@ -1,0 +1,9 @@
+reac   
+       oxid N2O   wtfrac=1   t(k)=298.15
+       fuel C32H66(a)   wtfrac=1   t(k)=298.15
+
+prob   case=MuleSimData1   hp   p(bar)=30  o/f=9
+
+output siunits   massf   short
+
+end
